@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Xiaoyun's Resume
+	xiaoyun.wang00@gmail.com
+-->
+<html>
+	<head>
+		<title>Xiaoyun's Project Details</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Xiaoyun / Project Details</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html" class="active">Projects</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Machine Learning: Predictive Models</h1>
+							<p>As a member of a five-person team, we conducted a study to develop and implement a predictive model aimed at improving company decision-making in hiring new employees and reducing employee turnover. Our study was based on a dataset provided by a large corporation that contained 1,470 observations of current and former employees, including 35 variables such as employee demographics, job-related characteristics, and employment history.</p>
+							<p>We utilized a number of methods and techniques to preprocess the dataset and identify critical features for employee retention programs. First, we identified and removed any duplicate or irrelevant data. Next, we imputed missing values using the k-Nearest Neighbors (k-NN) algorithm, and scaled the data using the StandardScaler function in Python to ensure that all variables were on the same scale. We then used Principal Component Analysis (PCA) to identify the most important features in predicting employee attrition.</p>
+							<p>Our study revealed that several key features were critical in predicting employee turnover rates, including marital status, previous employment history, and years of employment. Using these features, we developed a predictive model using logistic regression and post-lasso techniques to identify relevant features from a large set of variables.</p>
+							<span class="image fit"><img src="images/project2_1.jpg" alt="" /></span>
+							<p>We evaluated our model's effectiveness using Receiver Operating Characteristic (ROC) analysis and identified the optimal threshold of 0.5 for our model, which resulted in a true positive rate of 0.47 and a false positive rate of 0.049. We also found that the logistic regression model achieved the highest performance among the four models we evaluated, indicating its effectiveness in predicting employee attrition.
+							</p>
+							<span class="image fit"><img src="images/project2_2.jpg" alt="" /></span>
+							<p>Based on our model's predictions, we identified a potential 19% attrition rate and targeted the top 20% of employees who were most likely to leave the company for intervention with employee welfare programs. We also used cumulative response curves and lift curves to evaluate our model's effectiveness, showing that targeting 20% of employees with our model was 3.5 times more effective than random guessing, which can help reduce attrition and improve retention.
+							</p>
+							<p>In addition to our model's predictions, our study also identified several ethical issues related to predictive analytics, such as discrimination against candidates with certain labels and unfair treatment of low-risk employees. We recommended that companies should be aware of these issues and strive for fairness in their talent retention strategies.
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="actions">
+						<li><a href="project1.html" class="button large">Previous</a></li>
+						<li><a href="project3.html" class="button large">Next Project</a></li>
+					</ul>
+				</div>
+				<div class="inner">
+					<ul class="menu">
+						<li>Contact Me</li>
+						<li><a href="mailto:xiaoyun.wang@gmail.com">xiaoyun.wang00@gmail.com</a></li>
+						<li>+1 (919) 638-1232</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
